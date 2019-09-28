@@ -1,0 +1,132 @@
+* {
+    font-family: 'Open sans', sans-serif
+}
+.footer {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.modal {
+    &-content {
+      padding: 1rem 2rem !important;  
+    }
+    &-subhead {
+        font-size: 13px !important;
+    }
+    &-title {
+        font-weight: bolder;
+        margin-left: 2rem;
+    }
+    &-lg {
+       max-width: 40vw !important;
+    }  
+    .social-signup {
+        display: flex;
+        margin-left: 55%;
+        color: #209936;
+        flex-direction: column;
+        .p {
+            margin: 0;
+            align-self: flex-end;
+        }
+        .signup-icons {
+            font-size: 1rem;
+            svg {
+                vertical-align: 0;
+                margin-right: 0.5rem;
+                float: right;
+            }
+        }
+    }
+    .modal-group {
+        display: flex;
+        justify-content: space-around;
+        *:focus {
+            outline: none !important;
+        }
+        .btn {
+            background-color: #209936 !important;
+            border-radius: 5em;
+            border: none;
+            height: 2.5em;
+            width: 7em;
+
+        }
+        .input-box {
+            
+            display: flex;
+            flex-direction: row;
+            height: 3em;
+            border: 0.56px solid #c0bfbf;
+            border-radius: 5px;
+            width: 40%;
+            padding: 0.5rem;
+            svg {
+                font-size: small;
+                margin-top: 0.7rem;
+            }
+        }
+        input::placeholder, input[type=select], input:active, input, option {
+            font-size: 13px;
+            
+        }
+
+        #adress-input {
+            width: 90%;
+        }
+    }
+    input, select, textarea:focus, input:focus, input:active, input:active:focus {
+        border: none !important;   
+        outline: none !important; 
+        background: white;
+    }
+    .foot-text {
+        width: 40%;
+        text-align: center;
+        font-size: 8px;
+        margin: 0% 27%;
+    }
+   .modal-subhead {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 200;
+  }
+  #login-form {
+    .input-box2 {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        height: 3em;
+        border: 0.56px solid #c0bfbf;
+        border-radius: 5px;
+        padding: 0.5rem;
+        svg {
+            font-size: small;
+            margin-top: 0.7rem;
+        }
+    }
+    .forgot-password-trig, .forgot-password-trig {
+        border: none;
+        background: none !important;
+        color: #209936;
+        font-size: 10px;
+        width: 100%;
+
+    }
+    .foot-text22 {
+        // display: flex;
+        // flex-direction: row;
+        width: 45%;
+        text-align: justify;
+        font-size: 10px;
+        width: 100%;
+    }
+    .foot-span {
+        float: left;
+    }
+}
+}
+
+
+
+

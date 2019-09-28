@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+ 
+.navbar {
+    background-color: transparent !important;
+
+}
+.bg {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.lng-toggle {
+    margin-left: 10rem;
+}
+
+.searchField {
+    width: 20rem !important;
+}
+.searchField::placeholder {
+    font-size: 1.2rem;
+}
+.cta {
+    font-size: 3.5rem;
+}
+a.nav-link {
+    color: #1B9236;
+}
+a.nav-link:hover {
+    border-bottom:2px solid #1B9236 !important;
+}
+
+.logo {
+    color: white;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.navbar_bg {
+    background: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+Button.login {
+    border:1px solid #1B9236;
+}
+
+.login,.buttonText {
+    color:#1B9236;
+}
+
+input::placeholder {
+    color:white;
+
+}
+
+input:first-child {
+    border: 0px solid;
+    color: #000;
+    width: 220px;
+    border-style: none;
+    border-bottom: 1px solid white;
+    background-color: transparent !important;
+    height: 40px;
+}
+
+input:focus {
+    outline: none;
+    color: white;
+}
+
+.searchButton {
+    background: rgb(125, 201, 125);
+    outline: none;
+    border-style: none;
+    color:rgb(10, 105, 32);
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-left: 2px;
+}
+
+.searchButton:focus {
+    outline:none;
+    border-style: none;
+    box-shadow: none;
+    border:none;
+}
+
+h3.p_header {
+    line-height: 0.5rem;
+    font-weight:700;
+    color:rgb(10, 105, 32);
+}
+
+.offAmount {
+    text-decoration: line-through;
+}
+.Offpercent {
+    color:rgb(10, 105, 32);
+}
+.full_Container {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url(../assets/Eridian.jpg);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    min-height:90vh;
+    background-position: 0 45%;
+}
+.industryPara {
+    width: 80%;
+    margin: auto;
+}
+.icons{
+    width: 90%;
+    margin: auto;
+  
+}
+.iconsContainer {
+    background-color: rgb(235, 235, 235);
+    height:50vh;
+}
+
+.comments {
+    width: 90%;
+    margin: auto;
+    min-height: 50px;
+}
+.commentsContainer {
+    background-color: rgb(103, 180, 94);
+}
+span.starComment {
+    color:rgb(236, 236, 90) ;
+    
+}
+span.starComment2 {
+    color:rgb(202, 202, 202);
+}
+
+.landing {
+    padding-left: 1rem;
+    margin: 0;
+    margin-left: 8%;
+}
+.hero-text {
+    font-size: 1.5rem;
+}
+
+.happy {
+    width: 35px;
+}
+.man {
+    width: 80px;
+}
+.commentdate {
+    margin-top: -19px;
+}
+
+footer {
+    background: black;
+         
+        width: 100%;
+}
+
+input.form-2 {
+    background: white !important;
+}
+.signupbtn {
+    border-style: none;
+}
+hr {
+    background: white;
+}
+
+.sixthSectionContainer {
+    min-height: 50vh;
+    color:rgba(10, 92, 29, 0.76);
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        background-color:black !important;
+    
+    }
+    .container-fluid {
+        width: 100% !important;
+     
+    }
+    .bg {
+        margin-left: 0px;
+          margin-right: 0px; 
+      }
+  }
+ @media (min-width: 481px) and (max-width: 767px) {
+    /* .navbar{
+        background-color: #000 !important;
+        width: 100%;
+        color: aliceblue !important;
+           } */
+    
+  } 
+  
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .navbar{
+        background-color:black !important;
+    
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .navbar{
+        background-color:black !important;
+    
+    }
+    
+  }
